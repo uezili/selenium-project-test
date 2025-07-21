@@ -32,9 +32,10 @@ public class RegisterPage extends BasePage {
     @FindBy(css = ".options > .option:first-child")
     public WebElement options;
 
-    public void accessPage (){
-        driver.get("http://localhost:5173");
+    public void accessPage() {
+        driver.get("http://localhost:3000");
     }
+
     public void openModal() {
         openModalBtn.click();
     }
