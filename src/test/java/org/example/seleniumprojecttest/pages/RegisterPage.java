@@ -33,7 +33,7 @@ public class RegisterPage extends BasePage {
     public WebElement options;
 
     public void accessPage() {
-        driver.get("http://localhost:3000");
+        driver.get("http://localhost:4173/frontend-ascan");
     }
 
     public void openModal() {
